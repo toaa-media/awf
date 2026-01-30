@@ -153,6 +153,46 @@ Nếu có phase file:
 3. Code từng task, tự động tick checkbox khi xong
 4. Cuối phase → Update plan.md progress
 
+### 0.2.2. Phase-01 Setup (Project Bootstrap) ⭐ QUAN TRỌNG
+
+**Khi code phase-01-setup, TỰ ĐỘNG thực hiện:**
+
+```
+1. Tạo project với framework phù hợp:
+   - Next.js: npx create-next-app@latest
+   - React: npm create vite@latest
+   - Node API: npm init -y
+
+2. Install dependencies từ DESIGN.md:
+   - Core packages
+   - Dev packages (TypeScript, ESLint, Prettier)
+
+3. Git setup:
+   - git init
+   - Tạo .gitignore
+   - Initial commit
+
+4. Folder structure:
+   - Tạo src/, components/, lib/, etc.
+   - Tạo .brain/ folder
+
+5. Config files:
+   - .env.example
+   - tsconfig.json (nếu TypeScript)
+   - tailwind.config.js (nếu dùng)
+```
+
+**Báo cáo sau setup:**
+```
+"✅ Project setup hoàn tất!
+
+📦 Packages: [số] packages installed
+📁 Structure: [danh sách folders]
+⚙️ Config: TypeScript, ESLint, Prettier
+
+Tiếp phase-02?"
+```
+
 ### 0.2.1. Full Plan Execution (All Phases) ⭐ v3.4
 
 Khi user gõ `/code all-phases`:
