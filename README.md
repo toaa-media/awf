@@ -3,8 +3,11 @@
 > **Framework mở rộng cho Antigravity Agent.**
 > Biến AI của bạn thành một đội ngũ chuyên nghiệp (PM, Designer, Coder) với quy trình làm việc chuẩn.
 
-[![Version](https://img.shields.io/badge/version-4.0.1-blue.svg)](https://github.com/TUAN130294/awf)
+[![Version](https://img.shields.io/badge/version-4.0.2-blue.svg)](https://github.com/TUAN130294/awf)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Website](https://img.shields.io/badge/Website-awfweb.pages.dev-8b5cf6.svg)](https://awfweb.pages.dev/)
+
+🌐 **Website:** [https://awfweb.pages.dev/](https://awfweb.pages.dev/)
 
 ---
 
